@@ -1,0 +1,60 @@
+html, body {
+	margin: 0px;
+	height: 100%;
+}
+
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+}
+
+header {
+	background-color: #1ED760;
+	height: 180px;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+form {
+    cursor:pointer;
+    display:block;
+    width:290px;
+    margin: 0 auto;
+    text-align:left;
+}
+
+section {
+	background-color: black;
+	min-height: 100%;
+}
+
+h3 {
+	color: #8E9193;
+	padding-left: 30%;
+	padding-top: 10%
+}
+
+a {
+	color:#d6d6d6;
+}
+
+li {
+	list-style: none;
+	padding-left: 20%; 
+}
+
+img {
+	margin-top: 100px;
+	height: 200px;
+	width: 200px;
+}
+
+.reproductor {
+	text-align: center;
+}
+
