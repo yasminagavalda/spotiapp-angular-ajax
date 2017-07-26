@@ -1,6 +1,6 @@
 var app = angular.module('spotifyApp')
 app.factory('spotifyFactory', function($http){
-	var token = 'BQDLxCOphdjrhc1JMyLlGx_6h78f1-kuLMp0Z1J1MAZD3WvlzLUTSx5DCrwt3E1Qb1ArSap3OMMAQteDrOzGJZmw892b6nacIOlDCaaRoWrP1rZVt4rwtVp0Ny-Y-0wB4RVGq5c0tqvIuYM'
+	var token = 'BQAK1ETUKp0fb2In7jxsA8wXh3xr9KgjSOgRPhSsCDSyrERvPWCKXEPCnlH5gIGyLOJ87B5114gm_Ic3U4GX-3HpYnTNuCshwDgdtNLhhOR83rP7BiIhF5GXyLTP8DFaap0nych3adq9RWA'
 	var getArtists =  function (nameArtist){
 		audio.pause()
 		var url = 'https://api.spotify.com/v1/search?type=artist&query=' + nameArtist;
